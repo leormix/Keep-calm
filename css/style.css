@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.faces {
+  object-fit: cover;
+  scale: 1.2;
+  max-width: 500px;
+  height: 500px;
+  margin: 120px 0 0 200px;
+}
+
+.block {
+  margin: -450px 0 0 820px;
+  line-height: 70px;
+  font-size: 30px;
+}
+.block__enjoy {
+  font-weight: 300;
+}
+.block__travel {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+}
+.block__description {
+  font-family: "Roboto";
+  padding-top: 25px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.block__read {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.wavep {
+  object-fit: cover;
+  scale: 1.2;
+  max-width: 500px;
+  height: 500px;
+  margin: 230px 0 0 200px;
+}
+
+.wave {
+  margin: -450px 0 0 820px;
+  line-height: 70px;
+  font-size: 30px;
+}
+.wave__enjoy {
+  font-weight: 300;
+}
+.wave__travel {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+}
+.wave__description {
+  font-family: "Roboto";
+  padding-top: 25px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 300;
+}
+.wave__read {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */

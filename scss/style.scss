@@ -1,0 +1,80 @@
+@import "null_style.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.faces{
+    object-fit: cover;
+    scale: 1.2;
+    max-width: 500px;
+    height: 500px;
+    margin: 120px 0 0 200px;
+}
+
+.block{
+    margin: -450px 0 0 820px;
+    line-height: 70px;
+    font-size: 30px;
+    &__enjoy{
+        font-weight: 300;
+    }
+    &__travel{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 65px;    
+    }
+    &__description{
+        font-family: "Roboto";
+        padding-top: 25px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    &__read{
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+.wavep{
+    object-fit: cover;
+    scale: 1.2;
+    max-width: 500px;
+    height: 500px;
+    margin: 230px 0 0 200px;
+}
+
+.wave{
+    margin: -450px 0 0 820px;
+    line-height: 70px;
+    font-size: 30px;
+    &__enjoy{
+        font-weight: 300;
+    }
+    &__travel{
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 65px;    
+    }
+    &__description{
+        font-family: "Roboto";
+        padding-top: 25px;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    &__read{
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
